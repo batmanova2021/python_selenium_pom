@@ -1,6 +1,6 @@
-# pytest-selenium-simple
+# pytest-selenium-pom
 
-This is a simple example of test scripts written using **Python**, **Selenium WebDriver**, **PyTest** and **Allure**. 
+This is a simple example of POM test scripts written using **Python**, **Selenium WebDriver**, **PyTest** and **Allure**. 
 **ChromeDriver** version is 89 and located inside the project. 
 Please update it according to your version of Google Chrome 
 installed on your machine when running locally.
