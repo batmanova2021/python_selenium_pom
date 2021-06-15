@@ -18,4 +18,4 @@ def test_search_multiple_item(browser, item):
 
     home_page.clear_input()
     home_page.search_item(item)
-    home_page.assert_title(item + " | eBay")
+    home_page.assert_title(item.lower() + " | eBay")

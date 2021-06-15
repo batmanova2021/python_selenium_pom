@@ -32,5 +32,5 @@ class EbayHomePage:
         search_field.clear()
 
     def click_link(self, link):
-        search_link = self.browser.find_element(link)
+        search_link = self.browser.find_element(*link)
         search_link.click()

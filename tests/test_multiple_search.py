@@ -13,4 +13,4 @@ def test_multiple_search(browser, item):
     home_page.navigate_home_page()
     home_page.assert_title(home_page.EXPECTED_TITLE)
     home_page.search_item(item)
-    home_page.assert_title(item + "| eBay")
+    home_page.assert_title(item + " | eBay")
